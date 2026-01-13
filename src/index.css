@@ -1,0 +1,33 @@
+@import "tailwindcss";
+button {
+    @apply m-2 p-2 border rounded bg-gray-200;
+    @apply cursor-pointer;
+}
+
+button:hover {
+    @apply bg-gray-500 text-white;
+}
+
+h1 {
+    @apply text-3xl font-bold underline mb-4;
+}
+
+p {
+    @apply text-xl;
+}
+
+.container {
+    @apply p-4;
+    @apply inline-flex;
+    @apply justify-center;
+}
+
+.home {
+    @apply text-center m-15 bg-gray-200/50 rounded-lg inline-flex flex-col items-center p-5 shadow-lg;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
