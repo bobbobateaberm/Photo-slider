@@ -17,9 +17,4 @@ A dynamic React application built with **Vite**, **Tailwind CSS**,  to showcase 
 
 ---
 
-## Getting Started
-
-### Prerequisites
-Make sure you have **Node.js** (v16.x or higher) and **npm/yarn** installed.
-
 
